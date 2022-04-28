@@ -12,22 +12,30 @@ body>div{
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     margin: auto;
+    padding: 20px 0px 20px 0px;
     margin-top: 50px;
-    width: 35%;
+    width: 34%;
     height: auto;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    
+}
+#form{
+    margin: auto;
+    text-align: center;
+
 }
 h2{
     text-align: center;
 }
 p{
     text-align: justify;
-}
-input{
-    padding: 10px 0px 10px 0px;
-    border-radius: 5px;
+    margin-left: 30px;
 }
 #desc{
+    color: grey;
     text-align: center;
+    margin-right: 20px;
     margin-bottom: 10px;
     font-size: 14px;
 }
@@ -35,17 +43,31 @@ input{
     text-align: center;
 }
 input{
-    width: 99%;
+    padding: 10px 0px 10px 0px;
+    border-radius: 5px;
+    text-align: start;
+    width: 90%;
     border: 1px solid rgb(160, 160, 160);
     margin-bottom: 10px;
 }
 #submit{
+    text-align: center;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 18px;
     border: 0px;
     color: grey;
 }
 #signIn:link{
+    background-color: transparent;
+    text-decoration: none;
+}
+#masia{
+    text-align: center;
+    margin-top: 20px;
+}
+#masai1:link{
+    margin-top: 20px;
+    color: grey;
     background-color: transparent;
     text-decoration: none;
 }
