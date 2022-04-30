@@ -69,25 +69,19 @@
     function handleSalarySort() {
       var selected = document.querySelector("#sortSalary").value;
 
-      //console.log(selected);
       if (selected == "HTL" && selected != null) {
         jobArr.sort(function (a, b) {
           return b.personSalary - a.personSalary;
         });
-        // console.log(jobArr);
         displayData(jobArr);
       }
       if (selected == "LTH" && selected != null) {
         jobArr.sort(function (a, b) {
           return a.personSalary - b.personSalary;
         });
-        // console.log(jobArr);
         displayData(jobArr);
       }
     }
-    // document
-    //   .querySelector("#sortNames")
-    //   .addEventListener("change", handleNameSort);
     function handleNameSort() {
       var selected = document.querySelector("#sortNames").value;
       console.log(selected);
@@ -163,5 +157,6 @@
       bookMarkArr.push(elem);
       localStorage.setItem("bookmarks", JSON.stringify(bookMarkArr));
     }
+   
   </script>
 </html>
